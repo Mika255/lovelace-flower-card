@@ -196,7 +196,7 @@ customElements.whenDefined("card-tools").then(() => {
             uom[elem] = result[elem].unit_of_measurement;
             if (elem == "dli") {
               uomt["dli"] = "mol/d⋅m²";
-              uom["dli"] = '<math style="display: inline-grid;" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>mol</mn></mrow><mrow><mn>d</mn><mn>⋅</mn><msup><mn>m</mn><mn>2</mn></msup></mrow></mfrac></mrow></math>';
+              uom["dli"] = "mol/d⋅m²";
             }
             displayed.push(elem);
           }
